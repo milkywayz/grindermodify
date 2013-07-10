@@ -1,0 +1,10 @@
+# GrinderModify works by modifying the health of mobs that which spawn from Monster_Spawners
+# In Minecraft, 2 HP is 1 heart. So having a spread of 4 means the health can be + or - 4 HP. 
+# In short, if you leave the spread at 4. The HP of mobs can be 16,17,18,19,21,22,23, or 24. 
+# From 8 hearts to 12 hearts, respectively. Excluding the default 10 hearts. 
+
+General:
+  Spread: 4
+  Effects:
+  - INCREASE_DAMAGE
+  
